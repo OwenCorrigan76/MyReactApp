@@ -1,5 +1,6 @@
-import React from 'react'
-import Card from './components/Card'
+import React from 'react';
+import Card from '../components/Card';
+import { Link } from 'react-router-dom';
 
 const SkillsCard = ({education, history}) => {
   return (<>
@@ -11,24 +12,24 @@ const SkillsCard = ({education, history}) => {
             <p className="mt-2 mb-4">
               Education to date
             </p>
-            <a
-              href="/jobs.html"
+            <Link
+              to="/skills"
               className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
               Browse Education
-            </a>
+            </Link>
           </Card>
-         <Card bg='bg-red-600'>
+         <Card bg='bg-indigo-200'>
            <h2 className="text-2xl font-bold">{history}</h2>
             <p className="mt-2 mb-4">
               Current Role
             </p>
-            <a
-              href="/add-job.html"
+            <Link
+              to="/add-skill"
               className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
             >
               Browse Tasks
-            </a>
+            </Link>
          </Card>
         </div>
       </div>
