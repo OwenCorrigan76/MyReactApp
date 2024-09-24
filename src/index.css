@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.test{
-    font-size: 2em;
+@layer base {
+  html {
+    font-family: "Futura", system-ui, sans-serif;
+  }
 }
