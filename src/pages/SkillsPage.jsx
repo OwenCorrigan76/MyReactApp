@@ -1,12 +1,10 @@
 import React from 'react';
-
+import SkillListings from '../components/SkillListings'
 const SkillsPage = () => {
-    return (
-        <div>
-        <h1>Test</h1>
-            {/* Your component content goes here */}
-        </div>
-    );
+    return <section className='bg-blue-50 px-4 py-6'>SkillsPage
+    <SkillListings />
+    </section>
+
 };
 
 export default SkillsPage;

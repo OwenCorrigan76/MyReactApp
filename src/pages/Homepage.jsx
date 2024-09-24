@@ -8,7 +8,7 @@ const Homepage = () => {
 <>
 <Skills />
 <SkillsCard />
-<SkillListings />
+<SkillListings isHome={true} />
 <ViewAll />
 </>
   );

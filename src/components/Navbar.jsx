@@ -18,8 +18,8 @@ const Navbar = () => {
                 src={ image }
                 alt="Skills and Courses"
               />
-              <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                >My Skills</span
+              <span className="hidden md:block text-white text-2xl  ml-2"
+                >Carriculum Vitae</span
               >
             </NavLink>
             <div className="md:ml-auto">
@@ -36,6 +36,10 @@ const Navbar = () => {
                   to="/add-skill"
                   className={linkClass}
                   >Courses Complete</NavLink>
+                  <NavLink
+                  to="/education"
+                  className={linkClass}
+                  >Education</NavLink>
               </div>
             </div>
           </div>

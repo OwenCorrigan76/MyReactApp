@@ -1,12 +1,12 @@
 [
   {
       "id": "1",
-      "title": "Software Engineer Intern",
-      "type": "Full-Time",
-      "location": "Red Hat Waterford",
-      "description": "Streams for Apache Kafka. Working with Apache Kafka and opensource project Strimzi top create AMQ Streams software",
+      "title": "Higher Diploma in Computer Science",
+      "type": "2 Years Full-Time",
+      "location": "SETU",
+      "description": "The online Higher Diploma in Science in Computer Science is a 24-month ICT Conversion Course designed to allow honours graduates from non-computing disciplines to acquire the industry-relevant ICT and software development skills, expertise and practical experience required to become suitable candidates for employment in the ICT domain in general and in software development in particular. Delivery:  The course is delivered using our award-winning online delivery platform – TutorStack, in Agile Semesters typically consisting of 4, three-week sprints followed by 1-week breaks for retrospective, after each sprint. Average time commitment is 16 hrs per week. Online delivery over the two years is supplemented by four onsite workshops to further enhance and deepen the learning experience.",
       "company": {
-        "name": "Red Hat",
+        "name": "Computer Science",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"

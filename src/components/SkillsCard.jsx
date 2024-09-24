@@ -13,7 +13,7 @@ const SkillsCard = ({education, history}) => {
               Education to date
             </p>
             <Link
-              to="/skills"
+              to="/education"
               className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
               Browse Education
